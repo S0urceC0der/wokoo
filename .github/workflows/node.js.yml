@@ -31,7 +31,4 @@ jobs:
     -
       name: build
       run: |
-        npm install -g wokoo
-        wokoo app 
-        cd app
-        
+        npm install -g wokoo-template wokoo
